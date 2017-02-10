@@ -1,18 +1,16 @@
 {
-  "name": "commons",
+  "name": "eslint-config-cedalo",
   "version": "1.0.0",
   "description": "Common files",
   "scripts": {
-    "preinstall": "npm run install:config",
-    "install:config": "cd eslint-config-cedalo && npm prune && npm install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tensegrity-software/commons.git"
+    "url": "git+https://github.com/tensegrity-software/eslint-config-cedalo.git"
   },
   "author": "Tensegrity Software",
   "bugs": {
-    "url": "https://github.com/tensegrity-software/commons/issues"
+    "url": "https://github.com/tensegrity-software/eslint-config-cedalo/issues"
   },
-  "homepage": "https://github.com/tensegrity-software/commons#readme"
+  "homepage": "https://github.com/tensegrity-software/eslint-config-cedalo#readme"
 }
