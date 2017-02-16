@@ -12,7 +12,6 @@ module.exports = {
         'import/no-named-as-default': 1,
         'import/no-named-as-default-member': 1,
         'react/prefer-stateless-function': 1,
-        'react/prop-types': 1,
         'no-underscore-dangle': 1,
         'import/first': 1,
         'jsx-a11y/no-static-element-interactions': 1,
