@@ -10,7 +10,6 @@ module.exports = {
 		'react/jsx-indent': [2, 'tab'],
 		'no-undef': 0,
 		'react/jsx-no-undef': 1,
-		'import/no-require': 1,
 		'import/no-named-default': 1,
 		'import/no-named-as-default': 1,
 		'import/no-named-as-default-member': 1,
