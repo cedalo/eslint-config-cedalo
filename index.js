@@ -3,8 +3,9 @@ module.exports = {
         'eslint-config-airbnb-base',
     ].map(require.resolve),
     rules: {
+        indent: ['error', 'tab'],
+        'no-tabs': 0,
         strict: 2,
-        indent: ['error', 4],
         'class-methods-use-this': 0,
     },
     compilerOptions: {
