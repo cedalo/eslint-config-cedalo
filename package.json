@@ -2,8 +2,7 @@
   "name": "eslint-config-cedalo",
   "version": "1.0.0",
   "description": "Common files",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cedalo/eslint-config-cedalo.git"
@@ -12,5 +11,9 @@
   "bugs": {
     "url": "https://github.com/cedalo/eslint-config-cedalo/issues"
   },
-  "homepage": "https://github.com/cedalo/eslint-config-cedalo#readme"
+  "homepage": "https://github.com/cedalo/eslint-config-cedalo#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^11.1.0"
+  }
 }
