@@ -4,7 +4,10 @@ module.exports = {
     ].map(require.resolve),
     parser: 'babel-eslint',
     rules: {
-        indent: ['error', 4],
+        indent: ['error', 'tab'],
+        'no-tabs': 0,
+        'react/jsx-indent-props': [2, 'tab'],
+        'react/jsx-indent': [2, 'tab'],
         'no-undef': 0,
         'react/jsx-no-undef': 1,
         'import/no-require': 1,
