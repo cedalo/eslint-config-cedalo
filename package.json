@@ -6,11 +6,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tensegrity-software/eslint-config-cedalo.git"
+    "url": "git+https://github.com/cedalo/eslint-config-cedalo.git"
   },
   "author": "Tensegrity Software",
   "bugs": {
-    "url": "https://github.com/tensegrity-software/eslint-config-cedalo/issues"
+    "url": "https://github.com/cedalo/eslint-config-cedalo/issues"
   },
-  "homepage": "https://github.com/tensegrity-software/eslint-config-cedalo#readme"
+  "homepage": "https://github.com/cedalo/eslint-config-cedalo#readme"
 }
