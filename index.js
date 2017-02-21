@@ -13,6 +13,10 @@ module.exports = {
 		strict: 0,
 		'no-param-reassign': 0
 	},
+	env: {
+		node: true,
+		jest: true
+	}
 	compilerOptions: {
 		target: 'ES6',
 		module: 'commonjs',
