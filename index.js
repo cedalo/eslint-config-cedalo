@@ -16,7 +16,7 @@ module.exports = {
 	env: {
 		node: true,
 		jest: true
-	}
+	},
 	compilerOptions: {
 		target: 'ES6',
 		module: 'commonjs',
