@@ -6,6 +6,7 @@ module.exports = {
 	rules: {
 		indent: ['error', 'tab'],
 		'no-tabs': 0,
+		'max-len': ['error', 120],
 		'react/jsx-indent-props': [2, 'tab'],
 		'react/jsx-indent': [2, 'tab'],
 		'no-undef': 0,
