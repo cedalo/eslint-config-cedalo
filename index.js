@@ -5,8 +5,12 @@ module.exports = {
 	rules: {
 		indent: ['error', 'tab'],
 		'no-tabs': 0,
-		strict: 2,
 		'class-methods-use-this': 0,
+		'comma-dangle': ['error', 'never'],
+		'import/no-extraneous-dependencies': ['error', { 'devDependencies': true }],
+		'max-len': ['error', 120],
+		'no-underscore-dangle': 0,
+		strict: 0
 	},
 	compilerOptions: {
 		target: 'ES6',
