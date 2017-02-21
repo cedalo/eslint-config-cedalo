@@ -11,7 +11,8 @@ module.exports = {
 		'max-len': ['error', 120],
 		'no-underscore-dangle': 0,
 		strict: 0,
-		'no-param-reassign': 0
+		'no-param-reassign': 0,
+		'no-prototype-builtins': 0
 	},
 	env: {
 		node: true,
