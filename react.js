@@ -14,7 +14,9 @@ module.exports = {
 		'import/no-named-default': 1,
 		'import/no-named-as-default': 1,
 		'import/no-named-as-default-member': 1,
-		'no-underscore-dangle': 1,
+		'no-underscore-dangle': 0,
+		'class-methods-use-this': 0,
+		'no-param-reassign': 0,
 		'jsx-a11y/no-static-element-interactions': 1,
 		'react/jsx-filename-extension': [
 			1,
