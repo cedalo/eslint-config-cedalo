@@ -1,3 +1,4 @@
-# cedalo-eslint-config
+# eslint-config-cedalo
+=================
 
-This repository contains the eslint-configuration for node- and react-based projects.
+This repository contains the ESLint configuration for Node.js- and React-based projects.
