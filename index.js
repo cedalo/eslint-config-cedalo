@@ -19,8 +19,8 @@ module.exports = {
 		node: true,
 		jest: true
 	},
-	compilerOptions: {
-		target: 'ES6',
-		module: 'commonjs',
-	},
+	// compilerOptions: {
+	// 	target: 'ES6',
+	// 	module: 'commonjs',
+	// },
 };
