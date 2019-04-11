@@ -13,8 +13,8 @@
   },
   "homepage": "https://github.com/cedalo/eslint-config-cedalo#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-config-airbnb-base": "^11.1.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-config-airbnb-base": "11.3.2",
+    "eslint-plugin-import": "2.8.0"
   }
 }
