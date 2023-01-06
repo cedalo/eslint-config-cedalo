@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/cedalo/eslint-config-cedalo.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.7.0",
