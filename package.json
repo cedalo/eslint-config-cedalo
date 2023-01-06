@@ -1,20 +1,23 @@
 {
   "name": "eslint-config-cedalo",
-  "version": "2.3.0",
-  "description": "Common files",
-  "scripts": {},
+  "version": "2.5.0",
+  "description": "ESLint Config",
+  "author": "Cedalo AG",
+  "homepage": "https://github.com/cedalo/eslint-config-cedalo#readme",
+  "bugs": {
+    "url": "https://github.com/cedalo/eslint-config-cedalo/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cedalo/eslint-config-cedalo.git"
   },
-  "author": "Tensegrity Software",
-  "bugs": {
-    "url": "https://github.com/cedalo/eslint-config-cedalo/issues"
-  },
-  "homepage": "https://github.com/cedalo/eslint-config-cedalo#readme",
   "dependencies": {
-    "eslint-config-airbnb": "14.1.0",
-    "eslint-config-airbnb-base": "11.3.2",
-    "eslint-plugin-import": "2.8.0"
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "1.7.0"
   }
 }

@@ -1,16 +1,13 @@
 module.exports = {
 	extends: [
 		'eslint-config-airbnb',
+		'eslint-config-airbnb/hooks',
+		'eslint-config-prettier',
+		'eslint-config-prettier/react'
 	].map(require.resolve),
 	parser: 'babel-eslint',
 	rules: {
-		indent: ['error', 'tab'],
 		'no-tabs': 0,
-		'max-len': ['error', 120],
-		'react/jsx-indent-props': [2, 'tab'],
-		'react/jsx-indent': [2, 'tab'],
-		'no-undef': 0,
-		'react/jsx-no-undef': 1,
 		'import/no-named-default': 1,
 		'import/no-named-as-default': 1,
 		'import/no-named-as-default-member': 1,
@@ -21,16 +18,40 @@ module.exports = {
 		'react/jsx-filename-extension': [
 			1,
 			{
-				extensions: [
-					'.js',
-					'.jsx',
-				],
-			},
+				extensions: ['.js', '.jsx', '.tsx']
+			}
 		],
+		// TODO: Fix the following
+		'lines-between-class-members': 0,
+		'prefer-destructuring': 0,
+		'max-classes-per-file': 0,
+		'import/order': 0,
+		'comma-dangle': 0,
+		'no-restricted-globals': 0,
+		'prefer-object-spread': 0,
+		'react/destructuring-assignment': 0,
+		'no-else-return': 0,
+		'react-hooks/exhaustive-deps': 0,
+		'react/static-property-placement': 0,
+		'react/jsx-fragments': 0,
+		'react/forbid-prop-types': 0,
+		'react/no-access-state-in-setstate': 0,
+		'react/jsx-props-no-spreading': 0,
+		'react/sort-comp': 0,
+		'react/prop-types': 0,
+		'no-async-promise-executor': 0,
+		'react/state-in-constructor': 0,
+		'import/no-useless-path-segments': 0,
+		'import/no-cycle': 0,
+		'no-useless-catch': 0,
+		'jsx-a11y/control-has-associated-label': 0
+	},
+	env: {
+		browser: true
 	},
 	parserOptions: {
 		ecmaFeatures: {
-			experimentalObjectRestSpread: true,
-		},
-	},
+			experimentalObjectRestSpread: true
+		}
+	}
 };
